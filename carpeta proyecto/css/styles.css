@@ -1,0 +1,70 @@
+
+h1{
+    color:rgb(241, 72, 72);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    
+
+} /* si pongo h2 solo , me cambia todos los h2 que hay en la pagina*/
+
+/*Para poder hacer que solo 1 d elos titulos por ejemplo se cambie, tengo que ir al html y adentro de la etiqueta, y agregar el atributo class (que se le llama selector). por ejemplo <h2 class="amarillo" ese amarillo es como para darle un nombre y identificarlo»*/
+
+/*luego en el css los que hago es llamar a ese selector class con un . */
+
+
+
+
+h2{ 
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(196, 196, 196);
+    background-image: url(/imagenes/fondo2.jpg);
+    background-repeat: inherit;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 400px;
+    background-blend-mode:color-burn;
+}
+.img1{
+  width: 300px;
+  height: 300px;
+    
+}
+
+.img2{
+  width: 1000px;
+  height: 500px; 
+}
+
+.lista1{
+  color: rgb(117, 7, 180);
+
+}
+.icono-facebook{
+  width: 50px;
+  height: 50px;
+}
+.icono-instagram{
+  width: 50px;
+  height: 50px;
+}
+.icono-youtube{
+  width: 50px;
+  height: 50px;
+}
+
+.icono-whatsapp{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  
+
+}
